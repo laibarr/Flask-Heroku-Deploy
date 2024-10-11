@@ -125,7 +125,7 @@ except ValueError as e:
 
 
 # Set the API key and configure the environment
-GEMINI_API_KEY = "AIzaSyBrzQklT-FeUsROncuGbUR1e_ABSF-kiVE"
+GEMINI_API_KEY = "AIzaSyD6xXKcNSEgKA4_Lto13YPn8hkHHICui3w"
 os.environ["GEMINI_API_KEY"] = GEMINI_API_KEY
 genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
